@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+[contenteditable="true"]:focus-visible {
+  outline: solid transparent;
+}
